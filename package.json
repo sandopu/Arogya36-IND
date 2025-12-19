@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "echo \"No tests yet\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "dev": "vite",                  // start dev server
+    "build": "vite build",          // build production files
+    "preview": "vite preview",      // preview production build locally
+    "test": "echo \"No tests yet\" && exit 0",  // placeholder test script
+    "predeploy": "npm run build",   // automatically runs before deploy
+    "deploy": "gh-pages -d dist"    // deploys the dist folder to gh-pages branch
   },
   "dependencies": {
     "react": "^19.2.0",
