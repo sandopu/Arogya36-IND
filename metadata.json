@@ -1,0 +1,7 @@
+{
+  "name": "Arogya360",
+  "description": "A premium, comprehensive medical ecosystem connecting patients, doctors, medical stores, and administrators with AI-driven insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
