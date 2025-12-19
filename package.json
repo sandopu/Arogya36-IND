@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "echo \"No tests yet\"",       // placeholder for CI
-    "predeploy": "npm run build",         // for GitHub Pages deploy
-    "deploy": "gh-pages -d dist"          // deploy dist folder
+    "test": "echo \"No tests yet\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -24,6 +24,6 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
-    "gh-pages": "^5.0.0"                  // required for GitHub Pages deployment
+    "gh-pages": "^5.0.0"
   }
 }
